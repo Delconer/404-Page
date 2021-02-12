@@ -1,0 +1,107 @@
+:root{
+  
+  /* Variables */
+  --font-1: "Inconsolata", monospace;
+  --font-2: "Space Mono", monospace;
+  --font-3: "Montserrat", sans-serif;
+
+  --gray: #333333;
+  --gray-2: #4f4f4f;
+  --white: #FFF;
+
+  /* 1 Rem = 10px */
+  font-size: 62.5%;
+
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 1.6rem;
+  color: var(--gray);
+}
+
+/* Utils */
+
+.container{
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* header */
+
+header p{
+  font-family: var(--font-1);
+  font-size: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+/* Main */
+main{
+  font-family: var(--font-2);
+}
+@media (min-width: 768px) {
+  main{
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem auto!important;
+  }
+}
+main img{
+  display: block;
+  width: 100%;
+  margin: 3.5rem auto;
+}
+@media (min-width: 768px) {
+  main img{
+    max-width: 90%;
+    margin: 0;
+  }
+}
+
+main h2{
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+@media (min-width: 768px) {
+  main h2{
+    font-size: 6.4rem;
+  }
+}
+
+main p{
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--gray-2);
+}
+@media (min-width: 768px) {
+  main p{
+    font-size: 2.4rem;
+  }
+}
+
+main a {
+  display: inline-block;
+  background-color: var(--gray);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 2rem;
+  margin: 3rem 0 ;
+}
+
+
+/* Footer */
+
+footer p{
+  font-family: var(--font-3);
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 3rem auto 0 auto;
+}
