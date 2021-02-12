@@ -7,10 +7,10 @@
    Sencillo diseño de página 404, realizado siguiendo el diseño del reto de devchallenges.io, desarrollado como practica básica de html y css, con el objetivo de realizar los desafíos de la página.
 </div>
 <div align="center">  <h3><a href="https://404-delconer.netlify.app/">Demo
-    </a>
+    </a>  </h3>
     <span> El proyecto puede ser visto en funcionamiento [aquí](https://404-delconer.netlify.app/ "aquí") </span>
-		[![](https://raw.githubusercontent.com/Delconer/404-Page/main/img/404.png)](https://raw.githubusercontent.com/Delconer/404-Page/main/img/404.png)
-  </h3>
+
+[![](https://raw.githubusercontent.com/Delconer/404-Page/main/img/404.png)](https://raw.githubusercontent.com/Delconer/404-Page/main/img/404.png)
 </div>
 
 ### Desarrollado usando:
