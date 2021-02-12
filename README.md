@@ -9,6 +9,7 @@
 <div align="center">  <h3><a href="https://404-delconer.netlify.app/">Demo
     </a>
     <span> El proyecto puede ser visto en funcionamiento [aquí](https://404-delconer.netlify.app/ "aquí") </span>
+		[![](https://raw.githubusercontent.com/Delconer/404-Page/main/img/404.png)](https://raw.githubusercontent.com/Delconer/404-Page/main/img/404.png)
   </h3>
 </div>
 
